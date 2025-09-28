@@ -47,6 +47,10 @@ h1, h2 {
     padding: 15px 15px;
 }
 
+h3 {
+    display: flex;
+    justify-content: center;
+}
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
