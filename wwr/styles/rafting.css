@@ -133,3 +133,95 @@ footer nav{
     justify-content: flex-end;
     gap: 1rem;
 }
+
+.contact-page header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+
+.contact-page h1 {
+    position: static;
+    background-color: white;
+    color: black;
+    font-family: var(--heading-font);
+    text-align: center;
+    padding: 1rem;
+}
+
+.contact-page address {
+    text-align: center;
+}
+
+.map, form { 
+    margin: 0;
+    position: relative;
+}
+.contact-page form {
+    display: grid;
+    align-items: start;
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    border: solid black;
+    gap: 0.6rem;
+    
+}
+
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: start;
+    max-width: 900px;
+    margin: 2rem auto;
+    
+}
+
+.contact-page textarea {
+    color: black;
+    padding: 8px;
+}
+
+.profiles {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    flex-wrap: nowrap;
+   
+}
+
+.page-content-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.contact-page section {
+    border: black solid;
+    max-width: 900px;
+    margin: 2rem 0;
+    text-align: center;
+    padding: 1rem;
+
+
+}
+.contact-page h2 {
+    position: static;
+    background-color: white;
+    color: black;
+    font-family: var(--heading-font);
+    text-align: center;
+    padding: 1rem;
+}
+    
+iframe {
+    width: 100%;
+}
+.contact-page footer {
+    border-top: dashed black;
+}
